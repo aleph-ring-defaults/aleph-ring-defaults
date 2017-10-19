@@ -16,5 +16,9 @@
 (lein/generate)
 
 (task-options!
-  pom  {:project        +project+
-        :version        +version+})
+  pom {:project     +project+
+       :version     +version+
+       :description "Like ring-defaults, but with support for Aleph's deferred responses."
+       :url         "https://github.com/aleph-ring-defaults/aleph-ring-defaults"
+       :scm         {:url "https://github.com/aleph-ring-defaults/aleph-ring-defaults"}
+       :license     {"MIT" "https://opensource.org/licenses/MIT"}})
