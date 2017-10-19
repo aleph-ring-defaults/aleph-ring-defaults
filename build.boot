@@ -1,5 +1,5 @@
 (def +project+ 'aleph-ring-defaults)
-(def +version+ "0.1-SNAPSHOT")
+(def +version+ "0.1")
 
 (set-env!
   :source-paths #{"src"}
